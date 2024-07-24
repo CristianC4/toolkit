@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var tools toolkit.Tools
-	s := tools.RamdonsString(10)
+	s := tools.RandomsString(10)
 	// import toolkit doesn't add lib on go.mod because we use workspaces
 	fmt.Println(s)
 }
